@@ -1,0 +1,58 @@
+body {background-color:rgba(236, 231, 231, 0.5)}
+
+.title-page{
+    text-align: center;
+    border: 10px;
+    border-color: black;
+    border-radius: 50%;
+}
+#ian1 {
+    width: 300px;
+    border-radius: 3%; 
+    box-shadow: 0 3px 10px 1 rgb(0, 0, 0);
+    
+
+}
+.img{
+    text-align: center;
+   
+
+}
+
+.timeline   { 
+    text-align: center;
+
+}
+
+.album-list{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 15px ;
+
+}
+#album-cover :hover {
+    background-color: rgb(0, 0, 0);
+}
+
+.album-iten {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+
+}
+
+.text-center { 
+    text-align: center;
+    font-family: monospace;
+}
+
+.album-cover {
+    width: 200px;
+    height: 200px;
+}
+
+.font-sup {
+    font-family: 'Supermercado One', cursive; 
+
+}
