@@ -2,20 +2,19 @@ body {background-color:rgba(236, 231, 231, 0.5)}
 
 .title-page{
     text-align: center;
-    border-color: black;
-    box-shadow: 0.5rem 0.5rem black, -0.5rem -0.5rem rgba(204, 204, 204, 0.425);    
- 
+    box-shadow: 0.5rem 0.5rem black, -0.5rem -0.5rem rgba(153, 153, 153, 0.425);    
+    margin: 2px;
 }
 #ian1 {
     width: 300px;
-    border-radius: 10%; 
-    box-shadow: 0 0 10px rgb(0, 0, 0);
-
+    box-shadow: 3px 10px 18px #888888;
+    border-radius: 10%;
 }
 .img{
     display: flex;
     justify-content: center;
     margin-top: 15px;
+    
 
 }
 
@@ -32,7 +31,7 @@ body {background-color:rgba(236, 231, 231, 0.5)}
 
 }
 .album-cover:hover {
-    box-shadow: 0 0 10px rgb(8, 8, 8);
+  box-shadow: 0 8px 8px -4px rgb(0, 0, 0)
 
 }
 
@@ -60,4 +59,10 @@ body {background-color:rgba(236, 231, 231, 0.5)}
 }
 .span-bottom {
     margin-bottom: 10px;
+}
+.social-ancora {
+    margin-top: 10px;
+    display: flex;
+    justify-self: center;
+      
 }
