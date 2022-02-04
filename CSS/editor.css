@@ -2,20 +2,20 @@ body {background-color:rgba(236, 231, 231, 0.5)}
 
 .title-page{
     text-align: center;
-    border: 10px;
     border-color: black;
-    border-radius: 50%;
+    box-shadow: 0.5rem 0.5rem black, -0.5rem -0.5rem rgba(204, 204, 204, 0.425);    
+ 
 }
 #ian1 {
     width: 300px;
-    border-radius: 3%; 
-    box-shadow: 0 3px 10px 1 rgb(0, 0, 0);
-    
+    border-radius: 10%; 
+    box-shadow: 0 0 10px rgb(0, 0, 0);
 
 }
 .img{
-    text-align: center;
-   
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
 
 }
 
@@ -57,4 +57,7 @@ body {background-color:rgba(236, 231, 231, 0.5)}
 .font-sup, h3 {
     font-family: 'Supermercado One', cursive; 
 
+}
+.span-bottom {
+    margin-bottom: 10px;
 }
