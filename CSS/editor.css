@@ -21,19 +21,35 @@
     display: flex;
     justify-content: center;
     gap: 20px;
+    height: 30px;
+    max-block-size: 40px;
       
 }
 
-.image-social-ancora {
+#image-social-ancora-facebook {
     width: 25px;
     height: 25px;
     border-radius: 1000%;
-    transition: 1s;
+    transition: 0.6s;
 }
 
-:hover.image-social-ancora{
-    width: 30px;
-    height: 30px;
+#image-social-ancora-instagram {
+    width: 25px;
+    height: 25px;
+    border-radius: 1000%;
+    transition: 0.6s;
+}
+
+#image-social-ancora-facebook:hover {
+    width: 27px;
+    height: 27px;
+    box-shadow: 0 4px 4px -4px rgb(28, 57, 121);
+}
+
+#image-social-ancora-instagram:hover {
+    width: 27px;
+    height: 27px;
+    box-shadow: 0 4px 4px -4px rgb(197, 16, 106);
 }
 
 .timeline   { 
@@ -69,7 +85,7 @@
 .album-cover {
     width: 200px;
     height: 200px;
-    transition: 2s;
+    transition: 1s;
 }
 
 .album-cover:hover {
